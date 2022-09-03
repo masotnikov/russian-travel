@@ -1,0 +1,17 @@
+.lead__road {
+  grid-row: 1 / auto;
+  grid-column: 1 / auto;
+  max-width: 984px;
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__road {
+    width: 95.23%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__road {
+    margin-top: 29px;
+  }
+}
