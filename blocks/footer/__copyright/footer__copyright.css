@@ -4,3 +4,15 @@
   font-size: 14px;
   line-height: 112%;
 }
+
+@media screen and (max-width: 730px) {
+  .footer__copyright {
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer__copyright {
+    padding-left: 0px;
+  }
+}

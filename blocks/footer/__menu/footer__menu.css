@@ -7,7 +7,8 @@
 }
 @media screen and (max-width: 640px) {
   .footer__menu {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 32px;
     margin: 0 0 48px;
   }
