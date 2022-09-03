@@ -11,16 +11,16 @@
 
   font-family: 'Inter';
   src:
-  url(./Inter-SemiBold.woff2) format('woff2'),
-  url(./Inter-SemiBold.woff) format('woff');
-  font-weight: 600;
+  url(./Inter-Bold.woff2) format('woff2'),
+  url(./Inter-Bold.woff) format('woff');
+  font-weight: 700;
 }
 
 @font-face {
 
   font-family: 'Inter';
   src:
-  url(./Inter-Bold.woff2) format('woff2'),
-  url(./Inter-Bold.woff) format('woff');
-  font-weight: 700;
+  url(./inter-black.woff) format('woff'),
+  url(./inter-black.ttf) format('ttf');
+  font-weight: 900;
 }
