@@ -2,12 +2,17 @@
   grid-column: 1;
   grid-row: 1/-1;
   width: 100%;
-  min-height: 740px;
   position: relative;
   transition-duration: 0.7s;
   background-image: url(../../../images/cover/cover-trains.jpg);
   background-size: cover;
 }
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    min-height: 780px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .cover__background {
     height: 57.8vw;
@@ -16,5 +21,11 @@
 @media screen and (max-width: 1024px) {
   .cover__background {
     height: 62.5vw;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .cover__background {
+    height: 61.2vw;
   }
 }

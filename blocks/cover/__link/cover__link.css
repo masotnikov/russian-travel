@@ -1,5 +1,5 @@
-.cover__link {
-  position: absolute;
+  .cover__link {
+  position: relative;
   top: 0px;
   left: 0px;
   height: 100%;
