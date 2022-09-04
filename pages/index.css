@@ -1,6 +1,7 @@
-/* normalize и вспомогательные блоки */
+/* normalize, fonts и вспомогательные блоки */
 
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/link/link.css);
 
 /* секция header */
