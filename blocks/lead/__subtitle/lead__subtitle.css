@@ -11,7 +11,11 @@
     margin: 0 auto 56px;
   }
 }
-
+@media screen and (max-width: 730px) {
+  .lead__subtitle {
+    width: 95%;
+  }
+}
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     margin: 0 auto 40px;

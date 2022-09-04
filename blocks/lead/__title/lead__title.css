@@ -3,8 +3,13 @@
   font-weight: 900;
   max-width: 720px;
   text-align: center;
-  font-size: min(96px, 14vw);
+  font-size: min(96px, 13vw);
   line-height: 104%;
+}
+@media screen and (max-width: 730px) {
+  .lead__title {
+    width: 95%;
+  }
 }
 @media screen and (max-width: 320px) {
   .lead__title {
