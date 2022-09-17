@@ -20,7 +20,7 @@
 
   font-family: 'Inter';
   src:
-  url(./Inter-Black.woff2) format('woff2'),
-  url(./Inter-Black.woff) format('woff');
+  url(../vendor/Inter-Black.woff2) format('woff2'),
+  url(../vendor/Inter-Black.woff) format('woff');
   font-weight: 900;
 }
